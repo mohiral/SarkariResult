@@ -15,7 +15,7 @@ app.use('/api/jobs', jobRoutes);
 app.use('/api/admitcards', admitCardRoutes); // Use the admit card routes
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/jobDB', {
+mongoose.connect('mongodb+srv://harishkumawatkumawat669:7FiBpE7v7lNyDp6G@cluster0.ogeix.mongodb.net/jobDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
